@@ -1,0 +1,131 @@
+{
+  "characters": [
+    {
+      "id": "001",
+      "name": "Kiếm Sĩ Hắc Nguyệt",
+      "title": "Lưỡi Kiếm Dưới Trăng",
+      "role": "Fighter",
+      "lane": ["Top"],
+      "damage": "Mixed",
+      "difficulty": "Normal",
+      "range": "Melee",
+      "status": "New",
+      "intro": "Chiến binh đơn độc dùng kiếm cong, mạnh khi giao tranh cận chiến.",
+      "images": { "avatar": "001.png", "splash": "001-splash.jpg" },
+      "stats": {
+        "Máu": "3200 (+210/cấp)",
+        "Năng lượng": "420 (+35/cấp)",
+        "Công vật lý": "180 (+14/cấp)",
+        "Giáp": "95 (+5.5/cấp)",
+        "Kháng phép": "60 (+2.5/cấp)",
+        "Tốc chạy": 380,
+        "Tốc đánh": "0.95 (+1.5%/cấp)",
+        "Tầm đánh": 175
+      },
+      "skills": [
+        { "key": "Bị động", "name": "Nguyệt Ấn", "icon": "001-passive.png",
+          "desc": "Mỗi đòn đánh thứ 3 gây thêm (40 + 5% máu đã mất của mục tiêu) sát thương chuẩn." },
+        { "key": "Q", "name": "Trảm Nguyệt", "icon": "001-skill-1.png",
+          "desc": "Chém quạt trong (x1), gây (30/60/90 + 10% công vật lý + 10% công phép) sát thương và \"Làm chậm\" 30% trong 1.5s. Đánh dấu mục tiêu gần nhất 4s.",
+          "cd": "8/7/6 giây", "cost": "40 năng lượng" },
+        { "key": "W", "name": "Bóng Kiếm", "icon": "001-skill-2.png",
+          "desc": "Lướt tới trước (x2) và nhận lá chắn (80 + 20% máu tối đa) trong 2s.",
+          "cd": "14 giây", "cost": "60 năng lượng" },
+        { "key": "R", "name": "Nguyệt Thực", "icon": "001-skill-3.png",
+          "desc": "Chém 5 nhát liên hoàn, mỗi nhát gây (100/150/200 + 60% công vật lý) sát thương. Nhát cuối gây thêm 8% máu đã mất sát thương chuẩn, \"Choáng\" 1s và hồi 50 máu.",
+          "cd": "90/75/60 giây", "cost": "100 năng lượng" }
+      ],
+      "story": [
+        "# Thuở nhỏ",
+        "Hắc Nguyệt lớn lên ở một làng chài ven biển, nơi tiếng sóng át cả tiếng kiếm tập. Ông thầy già nhận cậu làm đồ đệ khi cậu mới mười hai tuổi.",
+        "Mười năm khổ luyện biến cậu thành kiếm sĩ giỏi nhất môn phái, nhưng cũng là người im lặng nhất.",
+        "# Đêm trăng máu",
+        "Một đêm trăng đỏ, môn phái bị thiêu rụi. Thầy của Hắc Nguyệt biến mất, chỉ để lại thanh kiếm cong cùng một mảnh thư chưa viết xong.",
+        "# Tính cách",
+        "Trầm tĩnh, kỷ luật, ít nói nhưng trọng lời hứa."
+      ]
+    },
+    {
+      "id": "002",
+      "name": "Pháp Sư Tinh Vân",
+      "title": "Người Đọc Sao",
+      "role": "Mage",
+      "lane": ["Mid"],
+      "damage": "Magic",
+      "difficulty": "Hard",
+      "range": "Ranged",
+      "status": "Updated",
+      "intro": "Pháp sư tầm xa điều khiển các tinh cầu gây sát thương diện rộng.",
+      "images": { "avatar": "002.png", "bg": "002-bg.jpg" },
+      "stats": { "Máu": "2500 (+160/cấp)", "Năng lượng": "600 (+60/cấp)", "Công phép": "210 (+18/cấp)", "Giáp": 50, "Kháng phép": 55, "Tốc chạy": 340, "Tầm đánh": 550 },
+      "skills": [
+        { "key": "Bị động", "name": "Chòm Sao Vệ Tinh", "desc": "Sau mỗi kỹ năng, một tinh cầu gây (25 + 15% công phép) sát thương phép lên kẻ địch gần nhất trong (x1).", "cd": "3 giây" },
+        { "key": "Q", "name": "Mưa Sao Băng", "desc": "Gọi mưa sao xuống vùng (x2), gây (80/120/160 + 70% công phép) sát thương phép.", "cd": "6 giây", "cost": "70 năng lượng" },
+        { "key": "W", "name": "Hố Đen Nhỏ", "desc": "Hút kẻ địch trong (x2) về tâm rồi \"Làm chậm\" 40% trong 2s.", "cd": "12 giây" },
+        { "key": "R", "name": "Thiên Hà Sụp Đổ", "desc": "Phát nổ trong (x4), gây (300/450/600 + 120% công phép) sát thương phép và \"Choáng\" 1.5s.", "cd": "100 giây" }
+      ],
+      "story": ["Tinh Vân là nhà thiên văn cuối cùng của một đài quan sát đã bị lãng quên.", "# Tính cách", "Tò mò, hay quên giờ giấc."]
+    },
+    {
+      "id": "003",
+      "name": "Xạ Thủ Phong Linh",
+      "title": "Cánh Chim Gió",
+      "role": "Marksman",
+      "lane": ["Bot"],
+      "damage": "Physical",
+      "difficulty": "Normal",
+      "range": "Ranged",
+      "intro": "Xạ thủ di chuyển linh hoạt, sát thương duy trì cao.",
+      "images": { "avatar": "003.png" },
+      "stats": { "Máu": 2700, "Năng lượng": 400, "Công vật lý": "170 (+12/cấp)", "Giáp": 55, "Kháng phép": 50, "Tốc chạy": 350, "Tầm đánh": 600 },
+      "skills": [
+        { "key": "Bị động", "name": "Gió Thuận", "desc": "Đòn đánh liên tiếp tăng 6% tốc đánh, tối đa 5 lần." },
+        { "key": "Q", "name": "Tên Xoáy", "desc": "Bắn mũi tên xuyên mục tiêu, gây (60/90/120 + 80% công vật lý) sát thương." },
+        { "key": "W", "name": "Bước Gió", "desc": "Lùi (x1) và \"Làm chậm\" kẻ địch gần 30% trong 1s." },
+        { "key": "R", "name": "Bão Tên", "desc": "Mưa tên trong (x3) kéo dài 4s, mỗi giây gây (50 + 30% công vật lý) sát thương." }
+      ],
+      "story": ["Phong Linh lớn lên trên đỉnh núi cao, nơi gió là người thầy duy nhất."]
+    },
+    {
+      "id": "004",
+      "name": "Hộ Vệ Thạch Giáp",
+      "title": "Bức Tường Sống",
+      "role": "Tank",
+      "lane": ["Support", "Top"],
+      "damage": "Physical",
+      "difficulty": "Easy",
+      "range": "Melee",
+      "intro": "Đấu sĩ giáp đá chuyên bảo vệ đồng đội và mở giao tranh.",
+      "images": { "avatar": "004.png" },
+      "stats": { "Máu": "3800 (+280/cấp)", "Năng lượng": 300, "Công vật lý": 120, "Giáp": "130 (+7/cấp)", "Kháng phép": 80, "Tốc chạy": 370, "Tầm đánh": 150 },
+      "skills": [
+        { "key": "Bị động", "name": "Da Đá", "desc": "Đứng yên 2s sẽ giảm 15% sát thương nhận vào." },
+        { "key": "Q", "name": "Va Chạm", "desc": "Lao tới (x2), gây (70 + 6% máu tối đa) sát thương và \"Hất tung\" 0.75s." },
+        { "key": "W", "name": "Khiên Đá", "desc": "Tạo lá chắn (150 + 10% máu tối đa) cho đồng minh trong 3s." },
+        { "key": "R", "name": "Địa Chấn", "desc": "Dậm đất trong (x3), gây 200 sát thương, \"Choáng\" 1s và \"Làm chậm\" 50% trong 2s." }
+      ],
+      "story": ["Thạch Giáp từng canh giữ cổng thành suốt ba mươi năm không rời vị trí."]
+    },
+    {
+      "id": "005",
+      "name": "Sát Thủ Dạ Ảnh",
+      "title": "Bóng Không Dấu Chân",
+      "role": "Assassin",
+      "lane": ["Jungle"],
+      "damage": "True Damage",
+      "difficulty": "Expert",
+      "range": "Melee",
+      "status": "New",
+      "intro": "Sát thủ rừng xuất quỷ nhập thần, kết liễu mục tiêu mỏng máu.",
+      "images": { "avatar": "005.png" },
+      "stats": { "Máu": 2600, "Năng lượng": 350, "Công vật lý": "190 (+15/cấp)", "Giáp": 60, "Kháng phép": 50, "Tốc chạy": 390, "Tầm đánh": 125 },
+      "skills": [
+        { "key": "Bị động", "name": "Ẩn Mình", "desc": "Tàng hình 1.5s sau khi hạ gục." },
+        { "key": "Q", "name": "Phi Đao", "desc": "Ném dao gây (50/80/110 + 60% công vật lý) sát thương và làm lộ vị trí 3s." },
+        { "key": "W", "name": "Dịch Chuyển Bóng", "desc": "Lao đến sau lưng mục tiêu trong (x3)." },
+        { "key": "R", "name": "Tử Thần Ghé Thăm", "desc": "Tấn công liên tiếp, mỗi nhát gây 12% máu đã mất sát thương chuẩn." }
+      ],
+      "story": ["Không ai biết Dạ Ảnh là ai, chỉ biết hợp đồng nào cũng được hoàn thành."]
+    }
+  ]
+}
